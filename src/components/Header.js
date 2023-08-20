@@ -16,9 +16,9 @@ const Header = () => {
             </div>
             <div className='col-6'>
               <p className='text-end text-white mb-0'>
-                Ligne d'assistance:
+                Ligne d'assistance :
                 <a className='text-white' href='tel:+212 633579759'>
-                  +212633579759
+                  +212 633579759
                 </a>
               </p>
             </div>
@@ -33,14 +33,16 @@ const Header = () => {
                 <Link to="" className='text-white'>Auto-Pro</Link>
               </h2>
             </div>
-            <div className='col-5'><div className="input-group">
-              <input type="text"
-                className="form-control py-2"
-                placeholder="Rechercher un produit, une référence ou marque..."
-                aria-label="Rechercher un produit, une référence ou marque..."
-                aria-describedby="basic-addon2" />
-              <span className="input-group-text" id="basic-addon2"><BsSearch className='fs-6' /></span>
-            </div></div>
+            <div className='col-5'>
+              <div className="input-group">
+                <input type="text"
+                  className="form-control py-2"
+                  placeholder="Rechercher un produit, une référence ou marque..."
+                  aria-label="Rechercher un produit, une référence ou marque..."
+                  aria-describedby="basic-addon2" />
+                <span className="input-group-text" id="basic-addon2"><BsSearch className='fs-6' /></span>
+              </div>
+            </div>
             <div className='col-5 header-upper-links d-flex align-items-center justify-content-between'>
               <div>
                 <Link className='d-flex align-items-center gap-10 text-white'>

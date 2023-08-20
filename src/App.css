@@ -85,4 +85,24 @@ a {
   color: var(--color-ff440089) !important;
 }
 
-/*Header part end*/
+/*Header part ends here*/
+
+/* Footer part */
+footer {
+  background-color: var(--color-232f3e);
+}
+
+footer:not(:first-child) {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+footer .input-group-text {
+  background-color: var(--color-ff440089);
+  color: white;
+}
+
+.footer-link {
+  font-size: 14px;
+}
+
+/* Footer part end here */
