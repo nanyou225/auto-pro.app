@@ -79,7 +79,7 @@ const Footer = () => {
                   +2126 33579759
                 </a>
                 <a href='mailto:auto-pro@gmail.com' className='d-block text-white mb-0'>
-                  auto-pro@gmail.com
+                  Modri-Auto-pro@gmail.com
                 </a>
                 <div className='social_icons d-flex align-items-center gap-30 mt-2'>
                   <a className='icon_linkedin text-white fs-6' href='/linkedin.com'>
@@ -116,7 +116,7 @@ const Footer = () => {
           <div className='row'>
             <div className='col-12'>
               <p className='text-center mb-0 text-white'>
-                &copy; {new Date().getFullYear()}; Propulsé par les Developpeurs de auto-pro
+                &copy; {new Date().getFullYear()}; Propulsé par les Developpeurs de Modri-Auto
               </p>
             </div>
           </div>

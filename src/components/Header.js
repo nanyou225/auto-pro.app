@@ -6,6 +6,10 @@ import { BsSearch } from "react-icons/bs";
 // import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
 
 const Header = () => {
+  const handleLogoClick = () => {
+    window.location.reload();
+    window.location.href = "/";
+  };
   return (
     <>
       <header className='header-top-strip py-3'>
@@ -30,7 +34,7 @@ const Header = () => {
           <div className='row align-items-center'>
             <div className='col-2'>
               <h2>
-                <Link to="" className='text-white'>Auto-Pro</Link>
+                <Link className='text-white' onClick={handleLogoClick}>Modri-Auto</Link>
               </h2>
             </div>
             <div className='col-5'>

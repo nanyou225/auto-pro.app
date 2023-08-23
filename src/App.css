@@ -8,6 +8,7 @@
   --color-131921: #131921;
   --color-3b4149: #3b4149;
   --color-ff440089: #fa916b;
+  --color-bf4800: #bf4800;
   --color-232f3e: #232f3e;
 }
 
@@ -35,6 +36,38 @@ a {
 
 .gap-30 {
   gap: 30px;
+}
+
+.button {
+  appearance: none;
+  filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.1));
+  transition: background 0.5s ease, color 0.5s ease;
+  border: none;
+  background: #ff440089;
+  color: #ffffff;
+  border-radius: 30px;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  padding: 8px 40px;
+  font-weight: 400;
+  font-size: 13px;
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  transform: translate(-50%, -50%);
+}
+
+.button:hover {
+  color: #ffffff;
+  background: #222222;
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2));
+}
+
+.previousButton,
+.nextButton {
+  background-color: #faf7f75f;
+  border-radius: 5px;
 }
 
 /*Header part*/
@@ -106,3 +139,37 @@ footer .input-group-text {
 }
 
 /* Footer part end here */
+
+/* Home page */
+.main-banner-content {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main-banner-content h4 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0 0 12px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  color: var(--color-bf4800);
+}
+
+.main-banner-content h5 {
+  font-size: 42px;
+  line-height: 54px;
+  font-weight: 500;
+  letter-spacing: -2;
+  text-transform: none;
+}
+
+.main-banner-content p {
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.4;
+  color: var(--color-131921);
+}
+
+/* Home page ends */
